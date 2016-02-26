@@ -1,5 +1,6 @@
 # xss-clean
 [![Build Status](https://travis-ci.org/jsonmaur/xss-clean.svg?branch=master)](https://travis-ci.org/jsonmaur/xss-clean)
+[![Coverage Status](https://coveralls.io/repos/github/jsonmaur/xss-clean/badge.svg?branch=master)](https://coveralls.io/github/jsonmaur/xss-clean?branch=master)
 
 Node.js Connect middleware to sanitize user input coming from POST body, GET queries, or url params. Works with [Express](http://expressjs.com/), [Restify](http://restify.com/), or any other [Connect](https://github.com/senchalabs/connect) app.
 
