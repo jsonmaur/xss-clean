@@ -16,6 +16,8 @@
     "middleware",
     "xss",
     "sanitize",
+    "sanitization",
+    "input",
     "clean",
     "cross",
     "site",
