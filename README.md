@@ -2,7 +2,7 @@
 [![Build Status](https://travis-ci.org/jsonmaur/xss-clean.svg?branch=master)](https://travis-ci.org/jsonmaur/xss-clean)
 [![Coverage Status](https://coveralls.io/repos/github/jsonmaur/xss-clean/badge.svg?branch=master)](https://coveralls.io/github/jsonmaur/xss-clean?branch=master)
 
-Node.js Connect middleware to sanitize user input coming from POST body, GET queries, or url params. Works with [Express](http://expressjs.com/), [Restify](http://restify.com/), or any other [Connect](https://github.com/senchalabs/connect) app.
+Node.js Connect middleware to sanitize user input coming from POST body, GET queries, and url params. Works with [Express](http://expressjs.com/), [Restify](http://restify.com/), or any other [Connect](https://github.com/senchalabs/connect) app.
 
 - [How to Use](#use)
 - [Testing & Contributing](#testing)
@@ -26,7 +26,7 @@ app.use(xss())
 app.listen(8080)
 ```
 
-You can also access the API directly if you don't want to use as middleware.
+This will sanitize any data in `req.body`, `req.query`, and `req.params`. You can also access the API directly if you don't want to use as middleware.
 
 ```javascript
 var clean = require('xss-clean/lib/xss').clean
