@@ -1,6 +1,6 @@
 {
   "name": "xss-clean",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "middleware to sanitize user input",
   "author": "Jason Maurer <j@maur.co>",
   "license": "MIT",
