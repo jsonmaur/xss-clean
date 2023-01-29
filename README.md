@@ -14,14 +14,14 @@ npm install xss-clean --save
 ```
 
 ```javascript
-var restify = require('restify')
-var xss = require('xss-clean')
+const restify = require('restify')
+const xss = require('xss-clean')
 
-var app = restify.createServer()
+const app = restify.createServer()
 
 app.use(restify.bodyParser())
 
-/* make sure this comes before any routes */
+// make sure this comes before any routes
 app.use(xss())
 
 app.listen(8080)
@@ -30,9 +30,9 @@ app.listen(8080)
 This will sanitize any data in `req.body`, `req.query`, and `req.params`. You can also access the API directly if you don't want to use as middleware.
 
 ```javascript
-var clean = require('xss-clean/lib/xss').clean
+const clean = require('xss-clean/lib/xss').clean
 
-var cleaned = clean('<script></script>')
+const cleaned = clean('<script></script>')
 // will return "&lt;script>&lt;/script>"
 ```
 
