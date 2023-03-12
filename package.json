@@ -50,7 +50,7 @@
     "nyc": "6.4.0"
   },
   "dependencies": {
-    "xss-filters": "1.2.6"
+    "xss-filters": "1.2.7"
   },
   "babel": {
     "presets": [
