@@ -1,33 +1,10 @@
 {
   "name": "xss-clean",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Middleware to sanitize user input",
-  "author": "Jason Maurer",
   "license": "MIT",
-  "homepage": "https://github.com/jsonmaur/xss-clean#readme",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jsonmaur/xss-clean.git"
-  },
-  "keywords": [
-    "express",
-    "restify",
-    "connect",
-    "middleware",
-    "xss",
-    "sanitize",
-    "sanitization",
-    "input",
-    "clean",
-    "cross",
-    "site",
-    "scripting",
-    "security",
-    "protect"
-  ],
   "files": [
     "lib/",
-    "LICENSE",
     "README.md"
   ],
   "main": "lib/index.js",

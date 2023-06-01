@@ -1,6 +1,8 @@
-# Node.js XSS-Clean
-[![Build Status](https://travis-ci.org/jsonmaur/xss-clean.svg?branch=master)](https://travis-ci.org/jsonmaur/xss-clean)
-[![Coverage Status](https://coveralls.io/repos/github/jsonmaur/xss-clean/badge.svg?branch=master)](https://coveralls.io/github/jsonmaur/xss-clean?branch=master)
+# Announcement
+
+**This library has been deprecated. The implementation is quite simple, and I would suggest you copy the source code directly into your application using the [xss-filters](https://github.com/YahooArchive/xss-filters) dependency, or look for alternative libraries with more features and attention. Thanks for your support.**
+
+---
 
 Node.js Connect middleware to sanitize user input coming from POST body, GET queries, and url params. Works with [Express](http://expressjs.com/), [Restify](http://restify.com/), or any other [Connect](https://github.com/senchalabs/connect) app.
 
