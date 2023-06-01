@@ -1,13 +1,13 @@
 {
   "name": "xss-clean",
   "version": "0.1.2",
-  "description": "middleware to sanitize user input",
+  "description": "Middleware to sanitize user input",
   "author": "Jason Maurer",
   "license": "MIT",
   "homepage": "https://github.com/jsonmaur/xss-clean#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jsonmaur/xss-clean"
+    "url": "https://github.com/jsonmaur/xss-clean.git"
   },
   "keywords": [
     "express",
@@ -27,6 +27,7 @@
   ],
   "files": [
     "lib/",
+    "LICENSE",
     "README.md"
   ],
   "main": "lib/index.js",
@@ -39,6 +40,9 @@
     "build": "rm -rf lib && babel src -d lib -s --no-comments",
     "prepublish": "npm run build"
   },
+  "dependencies": {
+    "xss-filters": "1.2.7"
+  },
   "devDependencies": {
     "ava": "0.14.0",
     "babel-cli": "6.5.1",
@@ -48,9 +52,6 @@
     "cross-env": "1.0.7",
     "exlint": "0.1.0",
     "nyc": "6.4.0"
-  },
-  "dependencies": {
-    "xss-filters": "1.2.7"
   },
   "babel": {
     "presets": [

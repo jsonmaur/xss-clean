@@ -7,7 +7,6 @@ Node.js Connect middleware to sanitize user input coming from POST body, GET que
 - [How to Use](#use)
 - [License](#license)
 
-<a name="use"></a>
 ## How to Use
 ```bash
 npm install xss-clean --save
@@ -35,8 +34,3 @@ const clean = require('xss-clean/lib/xss').clean
 const cleaned = clean('<script></script>')
 // will return "&lt;script>&lt;/script>"
 ```
-
-<a name="license"></a>
-## License
-
-[MIT](LICENSE) © [Jason Maurer](http://maur.co)
