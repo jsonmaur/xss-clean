@@ -1,6 +1,6 @@
 {
   "name": "xss-clean",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Middleware to sanitize user input",
   "license": "MIT",
   "files": [
